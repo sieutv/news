@@ -1,0 +1,23 @@
+<main>
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-xs-12 col-sm-6 col-md-8">
+{% for tag in site.tags %}
+<div id="{{tag|first}}">
+	<h3>{{tag[0]}}<i class="badge">{{tag|last|size}}</i></h3>
+	<ol>
+	{% for posts in tag %}
+		{% for post in posts %}
+			{% if post.url %}
+			<li><a href="{{site.baseurl}}{{post.url}}"><time>{{ post.date | date: "%-d %B %Y" }}</time> - {{ post.title }}</a></li>
+			{% endif %}
+		{% endfor %}
+	{% endfor %}
+	</ol>
+</div>
+{% endfor %}
+			</div>
+{% include {{site.skin}}/_side %}
+		</div>
+	</div>
+</main>
