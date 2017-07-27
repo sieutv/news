@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Markdown guide
-tags: [ghim,"Label"]
+tags: [ghim,"bài mẩu"]
 ---
 ## Bài viết mẩu markdown syntax.
 

@@ -1,4 +1,4 @@
-{% for post in site.posts limit:24 %}
+{% for post in site.posts limit:include.num %}
 {% assign cdate = post.date | date: "%Y" %}
 {% if cdate != date %}
 {% unless forloop.first %}</ul>{% endunless %}

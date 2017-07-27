@@ -1,6 +1,6 @@
+<ul class="nav nav-pills nav-stacked">
+<li class="active"><a href="{{site.baseurl}}/{{include.key}}">{{include.key}}</a></li>
 {% for post in site.categories[include.key] limit:include.num %}
-<div class="img-thumbnail">
-<h4><a href="{{site.baseurl}}{{post.url}}">{{post.title}}</a></h4>
-{% include imgthumb %}
-</div>
-{% endfor %}	
+<li><a href="{{site.baseurl}}{{post.url}}">{{post.title}}</a></li>
+{% endfor %}
+</ul>
