@@ -1,5 +1,5 @@
 {% if (post.thumb) %}
-		<img src="{{site.asseturl}}/{{post.thumb}}" alt="{{post.title}}" class="pull-left img-thumbnail"/>
+		<img src="{{post.thumb}}" alt="{{post.title}}" class="pull-left img-thumbnail"/>
 {% else %}
       {% assign foundImage = 0 %}
       {% assign images = post.content | split:"<img " %}

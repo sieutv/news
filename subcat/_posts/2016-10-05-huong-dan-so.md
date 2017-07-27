@@ -2,7 +2,7 @@
 layout: post
 title: Hướng dẫn sơ
 tags: [ghim]
-thumb: http://placehold.it/500x500
+thumb: http://placehold.it/500x500/jpg
 ---
 Đây là bài gửi được viết từ github new file. 
 Nội dung tóm lược xem trước ở đây. Tốt nhất là hơn 22 từ trước khi thêm các thẻ html hoặc kiểu markdown

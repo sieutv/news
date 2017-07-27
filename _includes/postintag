@@ -3,7 +3,7 @@
 {% for tag in page.tags %}
 	{% if tag != "ghim" %}
 	<li class="active"><a href="{{site.baseurl}}/tag#{{tag|replace:' ','-'}}">{{site.lang.sametag}}: {{tag}}</a></li>
-	{% for post in site.tags[tag] limit:6 %}
+	{% for post in site.tags[tag] limit:include.num %}
 	<li><a href="{{site.baseurl}}{{post.url}}">{{post.title}}</a></li>
 	{% endfor %}
 	{% endif %}
