@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Hướng dẫn sơ
+author: admin
 tags: [ghim]
 ---
 Đây là bài gửi được viết từ github new file. 

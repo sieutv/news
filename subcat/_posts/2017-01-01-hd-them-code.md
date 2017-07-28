@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Hướng dẫn thêm code
+author: admin
 tags: ["Cài đặt"]
 thumb: http://placehold.it/500x500/jpg
 ---

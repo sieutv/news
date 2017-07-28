@@ -21,7 +21,6 @@
 {% include {{site.skin}}/200x200 %}
 {% include postincat num='12' %}
 {% include postbytag key='ghim' num='12' %}
-
 				</div>
 					</div>
 					<div class="col-xs-6">

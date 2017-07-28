@@ -1,6 +1,4 @@
-<div class="max180w pull-left">
-{% if (post.thumb) %}
-	{% assign x = post.thumb|slice:0,4 %}
+{% if (post.thumb) %}{% assign x = post.thumb|slice:0,4 %}
 	{% if x == "http" %}
 		<img src="{{post.thumb}}" alt="{{post.title}}" class="img-thumbnail"/>
 	{% else %}
@@ -19,4 +17,3 @@
         {% endif %}
       {% endfor %}
 {% endif %}
-</div>

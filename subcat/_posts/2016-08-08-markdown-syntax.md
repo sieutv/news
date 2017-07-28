@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Markdown guide
+author: admin
 tags: [ghim,"bài mẩu"]
 ---
 ## Bài viết mẩu markdown syntax.
