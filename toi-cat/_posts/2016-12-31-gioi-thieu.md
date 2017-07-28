@@ -2,10 +2,9 @@
 layout: post
 title: Giới thiệu
 tags: [ghim]
+thumb: noimage.png
 ---
 Đây là trang giới thiệu
-
-{% include img key='{{"name.png"|absolute_url}}' %}
 
 Nội dung ở đây hổ trợ markdown syntag
 
