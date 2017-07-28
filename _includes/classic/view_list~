@@ -1,8 +1,0 @@
-<div class="col-md-6 img-thumbnail">
-<div class="row">
-{% include imgthumb %}
-<h4><a href="{{site.baseurl}}{{post.url}}">{{post.title}}</a></h4>
-{{post.content|strip_html|truncate:200}}
-<p>{% for tag in post.tags %}<span><i class="glyphicon glyphicon-tag"></i><a class="btn btn-link" href="{{site.baseurl}}/tag#{{tag|replace:' ','-'}}">{{tag}}</a></span>{% endfor %}</p>
-</div>
-</div>
