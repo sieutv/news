@@ -4,7 +4,7 @@ asseturl: "/news/assets"
 skin: "classic"
 lang:
  read_more: ">>"
- samecat: "Cùng mục"
+ samecat: "Xem thêm cùng mục"
  sametag: "Cùng thẻ"
  hotpost: "Bài nổi bật"
  subcat: "Chuyên mục" # name of sub folder

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Mẩu bài viết chưa phân loại
+author: admin
 tags: [ghim]
 ---
 ## Bài viết mẩu markdown syntax.
