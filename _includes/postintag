@@ -1,19 +1,13 @@
 {% if (page.tags) %}
-
 {% for tag in page.tags %}
-
 	{% if tag != "ghim" %}
-
-<i class="glyphicon glyphicon-tags"></i>&nbsp;<span><a href="{{site.baseurl}}/tag/#{{tag}}">{{tag}}</a></span>
+<i class="glyphicon glyphicon-tags"></i>&nbsp;<span><a href="{{site.baseurl}}/tag#{{tag}}">{{tag}}</a></span>
 	{% for post in site.tags[tag] limit:include.num %}
-
 <div class="img-thumbnail">
 <h4><a href="{{site.baseurl}}{{post.url}}">{{post.title}}</a></h4>
 {% include imgthumb %}
 </div>
-
 	{% endfor %}
 	{% endif %}
 {% endfor %}
-
 {% endif %}
