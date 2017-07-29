@@ -1,1 +1,1 @@
-<div class="embed-responsive"><iframe class="embed-responsive-item" src="{{include.src}}"></iframe></div>
+<div class="responsive"><iframe class="" src="{{include.src}}"></iframe></div>
