@@ -2,6 +2,7 @@
 layout: post
 title: Bài mẩu playlist media
 author: admin
+thumb: noimage.png
 tags: [ghim,"bài mẩu"]
 ---
 Tải tất cả thư mục vào assets/(tenthumuchinh). Lưu ý tên thư mục hình là viết liền và ko dấu.
