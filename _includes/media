@@ -1,8 +1,8 @@
-<video id="video" class="video-js vjs-default-skin vjs-big-play-centered"
-               controls preload="auto" width="60%" height="264"
-               data-setup=""
-               poster="">
-</video>
+<div class="embed-responsive embed-responsive-16by9">
+<video class="embed-responsive-item" controls="controls"
+poster="" >
+<source src="">
+</video></div>
 {% for media in site.static_files %}
 {% if media.path contains include.name %}
 <div class="col-sm-6 col-md-4">
