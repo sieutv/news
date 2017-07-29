@@ -22,13 +22,13 @@
 					<div class="col-xs-6">
 				<div class="row">
 {% include {{site.skin}}/200x200 %}
-{% include postintag num='12' %}
+{% include postincat num='12' %}
+{% include postbytag key='ghim' num='12' %}
 				</div>
 					</div>
 					<div class="col-xs-6">
 						<div class="row">
-{% include postincat num='12' %}
-{% include postbytag key='ghim' num='12' %}
+{% include postintag num='12' %}
 {% include {{site.skin}}/180x150 %}
 						</div>
 					</div>
