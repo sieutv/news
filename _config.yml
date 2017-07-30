@@ -14,5 +14,4 @@ permalink: /:categories/:title
 paginate: 10
 paginate_path: /page:num
 
-plugins: 
- - jekyll-paginate
+gems: [jekyll-paginate]
