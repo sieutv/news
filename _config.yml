@@ -4,8 +4,9 @@ asseturl: "/news/assets"
 skin: "classic"
 lang:
  read_more: ">>"
+ showpostby: "Bài cùng mục: "
  samecat: "Xem thêm cùng mục"
- sametag: "Cùng thẻ"
+ sametag: "Xem thêm cùng thẻ"
  hotpost: "Bài nổi bật"
  subcat: "Chuyên mục" # name of sub folder
 # Build settings

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Jekyll on androi
+title: Jekyll on android
 author: admin
 tags: [jekyll,android,termux]
 ---
