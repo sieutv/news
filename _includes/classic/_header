@@ -13,9 +13,12 @@
 	<title>{{page.title}}</title>
 	<style>
 		img{display:block;margin:0 auto;max-width:75%;}
-		.navcat{display:inline-block;max-height:34px;}
-		.max180w{max-width:180px;}
+		.navcat{display:inline-block;max-height:48px;}
+		.max180w{width:180px;height:180px;overflow:hidden;object-fit:cover;}
 	</style>
 </head>
 <body>
-	<header>{% include navc %}</header>
+	<header>
+	<a href="{{site.url}}{{site.baseurl}}/"><img src="{{site.asseturl}}/logo.png" alt="{{site.lang.brandname}}" class="navcat"/></a>
+	{% include navc %}
+	</header>
